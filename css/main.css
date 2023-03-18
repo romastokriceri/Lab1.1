@@ -1,0 +1,51 @@
+    /*Нульовий стиль*/
+    *{padding: 0;margin: 0;border: 0;}
+    *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+    :focus,:active{outline: none;}
+    a:focus,a:active{outline: none;}
+    nav,footer,header,aside{display: block;}
+    html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+    input,button,textarea{font-family:inherit;}
+    input::-ms-clear{display: none;}
+    button{cursor: pointer;}
+    button::-moz-focus-inner {padding:0;border:0;}
+    a,a:visited{text-decoration: none;}
+    a:hover{text-decoration: none;}
+    ul li{list-style: none;}
+    img{vertical-align: top;}
+    h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+    /*--------------------*/
+
+.space-img{
+  width: 30% ;
+  height: 30%;
+  margin: 1%;
+}
+
+main{
+  background: rgb(255, 242, 175);
+ border-radius: 30px;
+ padding: 1%;
+}
+
+.page-1{
+  background: rgb(17,156,131);
+  background: linear-gradient(90deg, rgb(242, 205, 153) 17%, rgb(89, 96, 219) 51%, rgb(248, 92, 131) 86%);
+margin: 4% 5%;
+padding: 5%;
+border-radius: 9%;
+}
+
+body{
+  background: url(../img/bg_pages_all.jpg) ;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.breadcrumb-item,.text,.text-center{
+  color: rgb(255, 240, 219);
+text-shadow: 1px 1px 6px rgb(0, 0, 0);
+}
