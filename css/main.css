@@ -86,3 +86,8 @@ footer{
 .container, .card-body{
 margin: 0 auto;
 }
+
+.nav-links{
+  color: rgb(255, 240, 219);
+text-shadow: 1px 1px 6px rgb(0, 0, 0);
+}
